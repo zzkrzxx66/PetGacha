@@ -39,4 +39,7 @@ interface PetDao {
 
     @Query("SELECT * FROM pets WHERE rarity = :rarity")
     fun getPetsByRarity(rarity: String): Flow<List<Pet>>
+
+    @Query("SELECT * FROM pets WHERE rarity = :rarity AND isCollected = 1")
+    fun getCollectedPetsByRarity(rarity: String): Flow<List<Pet>>
 }
