@@ -4,11 +4,13 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import androidx.room.TypeConverters
 import com.example.petgacha.data.model.Pet
 import com.example.petgacha.data.model.PlayerData
 import com.example.petgacha.data.model.TeamPet
 
 @Database(entities = [Pet::class, PlayerData::class, TeamPet::class], version = 1, exportSchema = false)
+@TypeConverters(Converters::class)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun petDao(): PetDao
     abstract fun playerDao(): PlayerDao
