@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">宠物精灵抽卡</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_home">主页</string>
+    <string name="nav_gacha">抽卡</string>
+    <string name="nav_collection">图鉴</string>
+    <string name="nav_team">阵容</string>
+    <string name="single_draw">单抽 100</string>
+    <string name="ten_draw">十连 900</string>
+    <string name="gold_coins">金币</string>
+    <string name="collected_progress">已收集: %1$d/%2$d</string>
+    <string name="draw_result">抽卡结果</string>
+    <string name="pet_detail">宠物详情</string>
+    <string name="no_pets_in_team">阵容为空</string>
+    <string name="team_full">阵容已满</string>
+    <string name="pet_added_to_team">已添加到阵容</string>
+    <string name="pet_removed_from_team">已从阵容移除</string>
+    <string name="not_enough_coins">金币不足</string>
+    <string name="pity_counter">保底计数: %1$d</string>
+</resources>
